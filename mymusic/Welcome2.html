@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Ask A question</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <section id="loginBox">
+	<h2>Ask A question</h2>
+	<form method="post" class="minimal" action="addqu.php">
+		<label for="username">
+			First Name:
+			<input type="text" name="username" id="username" placeholder="Please enter your name"  required="required" />
+		</label>
+
+		<label for="email">
+			Email:
+			<input type="text" name="email" id="email" placeholder="Enter Email Address"required="required" />
+		</label>
+
+
+		<label for="pnumber">
+			Phone number:
+			<input type="text" name="pnumber" id="pnumber" placeholder="Enter Phone Number"required="required" />
+		</label>
+
+		<label for="username">
+			Question
+
+			<textarea id="question" class="text" cols="86" rows ="15" name="question" required="required" placeholder="Write your question here" ></textarea>
+
+		</label>
+
+		<button type="submit" class="btn-minimal">Submit</button>
+	</form>
+</section>
+<center><p>Designed by AMinA</p></center>
+<center><a href="admin.php">Admin Page</a></center>
+
+
+  
+  
+</body>
+</html>
